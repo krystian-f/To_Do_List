@@ -1,3 +1,5 @@
+import { dragAndDrop } from "./drag_and_drop.js";
+
 const editTask = function () {
   console.log(`Edit`);
   const tasksDB = JSON.parse(localStorage.getItem('tasksDB')) || [];
